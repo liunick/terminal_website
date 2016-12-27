@@ -1,0 +1,36 @@
+html {
+	 min-height:100%;
+	 position: relative;
+}
+
+body {
+	background-color: #000;
+	height: 100%;
+}
+
+#ascii {
+	margin: 0 0 0 0 ;
+	padding: 0 0 0 0;
+}
+
+#output {
+	color: #fff;
+}
+
+#error {
+	color: #AB0202;
+}
+
+#console {
+	font-family: courier, monospace;
+	background-color: #000; 
+	position: absolute;
+	color: #00D41C;
+	width: 90%;
+	height: 95%;
+	margin-left: 20 px;
+	margin-right:20 px;
+	margin-top:20 px;
+	margin-bottom: 20 px;
+	font-size:14px;
+}
